@@ -1,0 +1,23 @@
+.login_card{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+mat-card{
+    width: 500px;
+    height: 500px;
+    background-color: #4f4f4f;
+    border-radius: 20px;
+}
+
+mat-form-field{
+    width: 400px;
+}
+
+.card-tilte{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+}

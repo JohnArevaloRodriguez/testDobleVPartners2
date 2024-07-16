@@ -1,0 +1,30 @@
+<div class="login_card">
+    <mat-card>
+        <form>
+            <mat-grid-list cols="1" rowHeight="120px">
+                <mat-grid-tile>
+                    <mat-card-title class="card-tilte">Inicio de Sesión</mat-card-title>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field>
+                        <mat-label>Usuario</mat-label>
+                        <input matInput type="text">
+                        <mat-icon matSuffix>person</mat-icon>
+                        <mat-error>El usuario es obligatorio</mat-error> 
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field>
+                        <mat-label>Contraseña</mat-label>
+                        <input matInput type="text">
+                        <mat-icon matSuffix>lock</mat-icon>
+                        <mat-error>El contraseña es obligatorio</mat-error> 
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <button mat-stroked-button style="background-color: #5ac8fa;">Iniciar Sesión</button>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </form>
+    </mat-card>
+</div>
